@@ -24,44 +24,6 @@
 
 </html>
 
-<html>
-<head>
-<script language="text/javascript">
-    // Starting with "Play" as the first button state
-    var playpause = true;
-</script>
-</head>
-<body>
-<div id="container">
-<center><button id="playpause" type="button" name="playButton" <source src="audio/Saadghamdisurahfatiha.mp3" type=" onclick="setPlayPause()">Play</button></center>
-</div>
-</body>
-<script language="text/javascript"> 
-function setPlayPause()
-{
-    // Here we toggle playpause from true to false and vice versa
-    playpause = !playpause;
-    if(playpause)
-    {
-        document.getElementById("playpause").value = "Play";
-        alert("Gallery has been paused!");
-        // Instead of the alert statement you would actually do the pausing of the gallery here
-    }
-    else
-    {
-        document.getElementById("playpause").value = "Pause";
-        alert("Gallery is now playing!");
-        // Instead of the alert statement you would place the code here that would start the gallery playing
-    }
-}
-</script>
-
-  <source src="horse.ogg" type="audio/ogg">
-
-  <source src="horse.mp3" type="audio/mpeg">
-
-
- <audio src="sound.mp3" autoplay></audio>
 <audio controls>
   <source src="https://zaydqadri.github.io/zq9943.github.io./Saadghamdisurahfatiha.mp3" />
 </audio>
